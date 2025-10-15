@@ -5,6 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine(Add(5, 5, true));
+            Console.WriteLine(Add(3, 3));
+            Console.WriteLine(Add(5.5, 5.5));
         }
 
         public static int Add(int numOne, int numTwo)
